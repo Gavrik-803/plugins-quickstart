@@ -1,18 +1,17 @@
 {
     "schema_version": "v1",
-    "name_for_human": "TODO List (no auth)",
-    "name_for_model": "todo",
-    "description_for_human": "Manage your TODO list. You can add, remove and view your TODOs.",
-    "description_for_model": "Plugin for managing a TODO list, you can add, remove and view your TODOs.",
+    "name_for_human": "GanalyticsGPT",
+    "name_for_model": "google analytics gpt",
+    "description_for_human": "Connect your Google Analytics to ChatGPT and ask any question about your data.",
+    "description_for_model": "Plugin for connecting Google Analytics to ChatGPT, allowing chatgpt to acsses and analyse user website data from their google analytics, enablin users to ask open-ended questions about their website and recieve answers.",
     "auth": {
       "type": "none"
     },
     "api": {
       "type": "openapi",
-      "url": "http://localhost:5003/openapi.yaml"
+      "url": "https://analytics-gpt-389217.lm.r.appspot.com/openapi.json"
     },
-    "logo_url": "http://localhost:5003/logo.png",
-    "contact_email": "legal@example.com",
+    "logo_url": "https://analytics-gpt-389217.lm.r.appspot.com/logo.png",
+    "contact_email": "your-email@example.com",
     "legal_info_url": "http://example.com/legal"
-  }
-  
+}
